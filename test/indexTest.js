@@ -40,7 +40,7 @@ describe( "Evergreen", () => {
     expect( fir.species )
       .to.eql( 'Fir' )
     expect( fir.name )
-      .to.eql( 'Douglas' )
+      .to.eql(  'Douglas' )
   } )
 
   it( 'has a static method `definition` that uses `super.definition` and expands on it', () => {
